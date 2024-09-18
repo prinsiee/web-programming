@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>string object </title>
+<script language="javascript">
+var txt="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.write(txt.length);
+document.write("<br>");
+var x='it\'s alright';
+var y="we are so called \"vikings\"from the north";
+document.write(x+"<br>"+y);
+document.write("<br>");
+var str="please locate where 'locate' occurs!";
+var pos=str.indexOf("locate");
+document.write(pos);
+document.write("<br>");
+var str="please locate where 'locate' occurs!";
+var pos=str.lastIndexOf("locate");
+document.write(pos);
+document.write("<br>");
+var str="please locate where 'locate' occurs!";
+var pos=str.search("locate");
+document.write(pos);
+document.write("<br>");
+var str="Apple,Banana,Kiwi";
+var res=str.slice(7,13);
+document.write(res);
+document.write("<br>");
+var str="Apple,Banana,Kiwi";
+var res=str.substring(7,13);
+document.write(res);
+document.write("<br>");
+var str="Apple,Banana,Kiwi";
+var res=str.substr(7.6);
+document.write(res);
+document.write("<br>");
+var str="Please visit Microsoft!";
+var n=str.replace("Microsoft","W3school");
+document.write(n);
+document.write("<br>");
+var text1="Hello World!";
+var text2=text1.toUpperCase();
+document.write(text2);
+document.write("<br>");
+var text1="Hello World!";
+var text2=text1.toLowerCase();
+document.write(text2);
+document.write("<br>");
+var text1="Hello";
+var text2="World";
+text3=text1.concat(" ",text2);
+document.write(text3);
+document.write("<br>");
+var str="HELLO WORLD";
+document.write(str.charAt(0));
+document.write("<br>");
+var str="HELLO WORLD";
+document.write(str.charCodeAt(0));
+document.write("<br>");
+var txt="a,b,c,d,e";
+var arr=txt.split(" ");
+document.write(arr[0]+" "+arr[2]);
+</script>
+</body>
+</html>

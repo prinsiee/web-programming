@@ -1,0 +1,36 @@
+<html>
+<head><title>major and minor</title></head>
+<body>
+<center><h1>program to find whether the age is major or minor</h1>
+<form name="f1">
+<table>
+<tr>
+<td>Enter name</td>
+<td><input type="text" name="nam" id="nam2"></td>
+<td>Enter age</td>
+<td><input type="text" name="age" id="age2"></td>
+</tr>
+<tr>
+<td colspan="2" align="center"> 
+<input type="button" name="b1" value="major/minor?" onclick="mami()">
+<input type="reset" name="reset" value="refresh">
+</td>
+</tr>
+</table>
+</form>
+</center>
+<script language="javascript">
+function mami()
+{
+   var n,m;
+   n=(document.getElementById("nam2").value);
+   m=parseInt(document.getElementById("age2").value);
+   if(age<80)
+   document.write("age is minor");
+   else
+   document.write("age is major");
+}
+</script>
+</body>
+</html>
+

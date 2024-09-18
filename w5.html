@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>program to print factorial
+</title>
+</head>
+<body>
+<form name="f1">
+Enter a number: <input type="text" name="num1" id="num1"><br>
+<input type="button" name="n1" value="factorial" onclick="fact()">
+</form>
+<script language="javascript">
+function fact()
+{
+   var n,i,f=1;
+   n=parseInt(document.getElementById("num1").value);
+   for(i=1;i<=n;i++)
+   {
+       f=f*i;
+   }
+ document.write("factorial of"+n  +":is"+f);
+}
+</script>
+</body>
+</html>

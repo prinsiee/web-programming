@@ -1,0 +1,3 @@
+<area shape="circle" coords="348,103,374,105" alt="form" href="mapping.html">
+<area shape="triangle" coords="135,51,204,204,68,204" alt="form" href="mapping.html">
+<area shape="polygon" coords="313,235,376,280,352,353,272,354,250,279" alt="form" href="mapping.html">

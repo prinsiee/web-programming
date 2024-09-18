@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>program for series
+</title>
+</head>
+<body>
+<form name="f1">
+Enter a number: <input type="text" name="n1" id="n1">
+<input type="button" name="submit" value="fibo" onclick="fib()">
+</form>
+<script language="javascript">
+function fib()
+{
+   var a,num1=0,num2=1,n3,i;
+   a=parseInt(document.getElementById("n1").value);
+  
+
+   document.write("<br>");
+   document.write(num1+" "+num2);
+    for(i=2;i<a;i++)
+  {
+   n3=num1+num2;
+    document.write("  "+n3);
+     num1=num2;
+     num2=n3;
+  }
+}
+</script>
+</body>
+</html>

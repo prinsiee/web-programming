@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>program for any series
+</title>
+</head>
+<body>
+<center><h1>Program to print any series</h1>
+<form name="f1">
+Enter first value of series:
+<input type="text" name="fv" id="fv">
+<br>
+Enter last value of a series:
+<input type="text" name="lv" id="lv">
+<br>
+Enter step value of a series:
+<input type="text" name="sv" id="sv">
+<center><input type="button" name="b1" value="series" onclick="any()"></center>
+</form>
+</center>
+<script language="javascript">
+function any()
+{
+  var first,last,step;
+  first=parseInt(document.getElementById("fv").value);
+  last=parseInt(document.getElementById("lv").value);
+  step=parseInt(document.getElementById("sv").value);
+  document.write("series is as follows:");
+  document.write("<br>");
+  if(first<last)
+  {
+     for(i=first;i<=last;i+=step)
+      { 
+        document.write(""+i+"");
+      }
+  }
+else
+  {
+    for(i=first;i>=last;i-=step)
+       {
+         document.write(""+i+"");
+       }
+   }
+}
+</script>
+</body>
+</html>
+
